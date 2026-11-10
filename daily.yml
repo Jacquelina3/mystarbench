@@ -1,0 +1,53 @@
+name: 每日更新涨星榜
+
+on:
+  schedule:
+    # UTC 01:00 = 北京时间 09:00
+    - cron: '0 1 * * *'
+  workflow_dispatch:   # 也允许在 Actions 页手动点一次「Run workflow」
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取 GitHub 官方 Trending 并生成数据
+        run: |
+          if python collect.py --no-push; then
+            echo "抓取并生成数据完成"
+          else
+            echo "第一次没抓成，30 秒后重试一次"
+            sleep 30
+            python collect.py --no-push
+          fi
+
+      - name: 记录本次运行
+        if: always()
+        run: |
+          mkdir -p data
+          echo "time_utc=$(date -u '+%Y-%m-%d %H:%M:%S')" > data/last_run.txt
+          echo "status=${{ job.status }}" >> data/last_run.txt
+
+      - name: 提交新数据
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "数据没有变化，跳过提交"
+          else
+            git commit -m "chore: 更新 $(date -u +%F) 榜单"
+            git push
+          fi
