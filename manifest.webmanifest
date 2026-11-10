@@ -1,0 +1,16 @@
+{
+  "name": "涨星榜 · GitHub Trending",
+  "short_name": "涨星榜",
+  "description": "按新增星数排序的 GitHub 今日 Top10 与近 7 天 Top10，附带可视化图表",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#faf9f7",
+  "theme_color": "#faf9f7",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
