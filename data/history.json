@@ -70,6 +70,32 @@
       "garrytan/gbrain": 32213,
       "ruvnet/RuView": 103534,
       "homeassistant-ai/ha-mcp": 6058
+    },
+    "2026-11-12": {
+      "meta/astryx": 25922,
+      "we-promise/sure": 13470,
+      "addyosmani/agent-skills": 116340,
+      "GoogleChrome/modern-web-guidance-src": 2231,
+      "openai/codex-security": 12077,
+      "Alishahryar1/free-claude-code": 68873,
+      "pookjw/HermesEnabler": 1341,
+      "CopilotKit/OpenBot": 11227,
+      "ggml-org/llama.cpp": 134250,
+      "QwenLM/qwen-code": 29557,
+      "nodejs/node": 123499,
+      "nvm-sh/nvm": 95926,
+      "ashhart/TensorFold": 1825,
+      "cloudflare/security-audit-skill": 70773,
+      "mattpocock/skills": 322551,
+      "milind-soni/OpenMausBot": 21529,
+      "NVIDIA/auto-ontology": 12099,
+      "vercel-labs/agent-desktop": 22466,
+      "D4Vinci/Scrapling": 101930,
+      "anthropics/skills": 193468,
+      "vercel-labs/agent-browser": 50169,
+      "zed-industries/zed": 94785,
+      "google/skills": 24005,
+      "google-deepmind/mujoco": 17716
     }
   }
 }
