@@ -96,6 +96,32 @@
       "zed-industries/zed": 94785,
       "google/skills": 24005,
       "google-deepmind/mujoco": 17716
+    },
+    "2026-11-13": {
+      "meta/astryx": 26602,
+      "we-promise/sure": 13953,
+      "addyosmani/agent-skills": 116699,
+      "GoogleChrome/modern-web-guidance-src": 3082,
+      "openai/codex-security": 12458,
+      "Alishahryar1/free-claude-code": 69336,
+      "CopilotKit/OpenBot": 11646,
+      "pookjw/HermesEnabler": 1551,
+      "ggml-org/llama.cpp": 134580,
+      "QwenLM/qwen-code": 29843,
+      "nvm-sh/nvm": 96022,
+      "nodejs/node": 123606,
+      "ashhart/TensorFold": 1951,
+      "cloudflare/security-audit-skill": 71242,
+      "milind-soni/OpenMausBot": 21737,
+      "mattpocock/skills": 323042,
+      "vercel-labs/agent-desktop": 22750,
+      "anthropics/skills": 193715,
+      "NVIDIA/auto-ontology": 12261,
+      "D4Vinci/Scrapling": 102162,
+      "vercel-labs/agent-browser": 50350,
+      "zed-industries/zed": 94856,
+      "google/skills": 24076,
+      "google-deepmind/mujoco": 17774
     }
   }
 }
