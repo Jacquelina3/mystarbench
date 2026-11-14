@@ -122,6 +122,34 @@
       "zed-industries/zed": 94856,
       "google/skills": 24076,
       "google-deepmind/mujoco": 17774
+    },
+    "2026-11-14": {
+      "GoogleChrome/modern-web-guidance-src": 4898,
+      "we-promise/sure": 14772,
+      "openai/codex-security": 13153,
+      "ZhuLinsen/daily_stock_analysis": 71645,
+      "tailscale/tailcat": 9473,
+      "Likely7/Veyra-NRVideo": 1635,
+      "alibaba/open-code-review": 50653,
+      "backnotprop/plannotator": 10475,
+      "block/buzz": 37308,
+      "louislam/uptime-kuma": 93874,
+      "tradermonty/claude-trading-skills": 4192,
+      "ChromeDevTools/chrome-devtools-mcp": 55473,
+      "sherlock-project/sherlock": 111176,
+      "cloudflare/security-audit-skill": 71952,
+      "milind-soni/OpenMausBot": 22212,
+      "mattpocock/skills": 323854,
+      "anthropics/skills": 194156,
+      "google/elephant-goldfish-model": 18638,
+      "vercel-labs/agent-desktop": 23315,
+      "vercel-labs/agent-browser": 50752,
+      "NVIDIA/auto-ontology": 12569,
+      "addyosmani/agent-skills": 117163,
+      "zed-industries/zed": 94969,
+      "google-deepmind/mujoco": 17877,
+      "anthropics/claude-quickstarts": 20875,
+      "lobehub/lobehub": 85404
     }
   }
 }
