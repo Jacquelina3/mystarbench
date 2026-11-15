@@ -150,6 +150,33 @@
       "google-deepmind/mujoco": 17877,
       "anthropics/claude-quickstarts": 20875,
       "lobehub/lobehub": 85404
+    },
+    "2026-11-15": {
+      "GoogleChrome/modern-web-guidance-src": 6090,
+      "alibaba/open-code-review": 51461,
+      "ChromeDevTools/chrome-devtools-mcp": 56330,
+      "we-promise/sure": 15339,
+      "tradermonty/claude-trading-skills": 4851,
+      "dream-num/univer": 24521,
+      "louislam/uptime-kuma": 94259,
+      "Likely7/Veyra-NRVideo": 2299,
+      "backnotprop/plannotator": 11159,
+      "martin-olivier/airgorah": 5895,
+      "JuliusBrussee/caveman": 120094,
+      "QwenLM/qwen-code": 30362,
+      "ashhart/TensorFold": 2168,
+      "Tencent/LoopForge": 930,
+      "ag-ui-protocol/ag-ui": 17387,
+      "meta/astryx": 28182,
+      "sherlock-project/sherlock": 111810,
+      "milind-soni/OpenMausBot": 22798,
+      "anthropics/skills": 194646,
+      "google/elephant-goldfish-model": 19223,
+      "vercel-labs/agent-browser": 51230,
+      "ZhuLinsen/daily_stock_analysis": 72269,
+      "addyosmani/agent-skills": 117597,
+      "google-deepmind/mujoco": 17985,
+      "anthropics/claude-quickstarts": 20987
     }
   }
 }
