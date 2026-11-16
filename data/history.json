@@ -2,26 +2,6 @@
   "note": "逐日实测总星数快照（来自 GitHub Trending 日榜 + 周榜页面读数）。每天运行后追加一天，用于计算「今日涨幅」与折线图。",
   "unit": "stars",
   "days": {
-    "2026-11-08": {
-      "pingdotgg/t3code": 51774,
-      "mattpocock/skills": 318120,
-      "D4Vinci/Scrapling": 99546,
-      "pbakaus/impeccable": 105859,
-      "thedotmack/claude-mem": 114672,
-      "milind-soni/OpenMausBot": 17584,
-      "Nutlope/hallmark": 50569,
-      "Donchitos/Claude-Code-Game-Studios": 36776,
-      "Renhuai123/ziwei-doushu": 16834,
-      "obra/superpowers": 314347,
-      "github/spec-kit": 148551,
-      "shiyu-coder/Kronos": 47306,
-      "anthropics/skills": 189103,
-      "max-sixty/worktrunk": 12022,
-      "jakubkrehel/skills": 11600,
-      "The-PR-Agent/pr-agent": 15523,
-      "vercel-labs/agent-browser": 47199,
-      "hyprwm/Hyprland": 40520
-    },
     "2026-11-09": {
       "pingdotgg/t3code": 0,
       "mattpocock/skills": 0,
@@ -177,6 +157,30 @@
       "addyosmani/agent-skills": 117597,
       "google-deepmind/mujoco": 17985,
       "anthropics/claude-quickstarts": 20987
+    },
+    "2026-11-16": {
+      "GoogleChrome/modern-web-guidance-src": 7255,
+      "dream-num/univer": 26148,
+      "backnotprop/plannotator": 11905,
+      "ChromeDevTools/chrome-devtools-mcp": 57024,
+      "tradermonty/claude-trading-skills": 5617,
+      "alibaba/open-code-review": 52171,
+      "Tencent/LoopForge": 1589,
+      "ag-ui-protocol/ag-ui": 17951,
+      "google-labs-code/stitch-skills": 9348,
+      "NVIDIA/SkillEvaluator": 1760,
+      "elementalsouls/Claude-BugHunter": 6515,
+      "ggml-org/ggml": 15937,
+      "meta/astryx": 28938,
+      "sherlock-project/sherlock": 112532,
+      "anthropics/skills": 195405,
+      "milind-soni/OpenMausBot": 23466,
+      "google/elephant-goldfish-model": 19812,
+      "we-promise/sure": 15733,
+      "ZhuLinsen/daily_stock_analysis": 72536,
+      "vercel-labs/agent-browser": 51656,
+      "addyosmani/agent-skills": 117968,
+      "google-deepmind/mujoco": 18082
     }
   }
 }
